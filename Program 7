@@ -4,23 +4,23 @@
 
 int main() {
 
- int a,b,c;
+ int first_num, second_num, third_num;
 
   printf("Enter first number:");
-  scanf("%d",&a);
+  scanf("%d",&first_num);
 
   printf("Enter second number:");
-  scanf("%d",&b);
+  scanf("%d",&second_num);
 
   printf("Enter third number:");
-  scanf("%d",&c);
+  scanf("%d",&third_num);
 
 
-if(a>b && a>c){
+if(first_num>second_num && first_num>third_num){
 printf("First is the biggest number");   
 }
 
-else if (b>a && b>c){
+else if (second_num>first_num && second_num>third_num){
     printf("second is the biggest number");  
 }
 
