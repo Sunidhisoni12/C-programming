@@ -1,0 +1,31 @@
+  // Find the greatest number
+
+#include<stdio.h>
+
+int main() {
+
+ int a,b,c;
+
+  printf("Enter first number:");
+  scanf("%d",&a);
+
+  printf("Enter second number:");
+  scanf("%d",&b);
+
+  printf("Enter third number:");
+  scanf("%d",&c);
+
+
+if(a>b && a>c){
+printf("First is the biggest number");   
+}
+
+else if (b>a && b>c){
+    printf("second is the biggest number");  
+}
+
+ else
+ printf("Third is the biggest number");  
+
+    return 0;
+}
