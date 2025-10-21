@@ -1,0 +1,50 @@
+// two numbers and operator
+#include<stdio.h>
+int main()
+{
+    int num1,num2;
+    char op;
+
+    printf("enter value of num1");
+    scanf("%d",&num1);
+
+    printf("enter value of num2");
+    scanf("%d",&num2);
+
+    printf("enter operator from(+,-,*,/,%);");
+    scanf("%c",&op);
+
+    switch(op)
+    {
+        case'+':
+        {
+            printf("sum of digits=%d",num1+num2);
+            break;
+        }
+        case'-':
+        {
+            printf("subtraction of digits=%d",num1-num2);
+            break;
+        }
+        case'*':
+        {
+            printf("multiplication of digits=%d",num1*num2);
+            break;
+        }
+        case'/':
+        {
+            printf("division of digits=%d",num1/num2);
+            break;
+        }
+        case'%':
+        {
+            printf("mod of digits=%d",num1%num2);
+            break;
+        }
+        default:
+        {
+            printf("please enter the correct operator");
+        }
+    }
+    return 0;
+}
