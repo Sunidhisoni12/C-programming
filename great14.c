@@ -1,0 +1,25 @@
+//sum of even and odd number from 1 to n
+#include<stdio.h>
+int main()
+{
+    int num,i,sumeven=0,sumodd=0;
+
+    printf("enter value of number=");
+    scanf("%d",&num);
+
+    for(i=1;i<=num;i++)
+    {
+        if(i%2==0)
+        {
+            sumeven+=i;
+        }
+        else
+        {
+            sumodd+=i;
+        }
+    }
+    printf("sum of even numbers=%d\n",sumeven);
+    printf("sum of odd numbers=%d",sumodd);
+    
+    return 0;
+}

@@ -1,0 +1,19 @@
+//fabonacci series
+#include<stdio.h>
+int main()
+{
+   int first=0,second=1,current;
+   
+   printf("fabonacci series:\n");
+   printf("%d\n",first);
+   printf("%d\n",second);
+   
+   for(current=first+second;current<=100;current=first+second)
+   {
+       first=second;
+       second=current;
+       printf("%d\n",current);
+   }
+
+    return 0;
+}
